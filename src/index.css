@@ -1,0 +1,91 @@
+.container {
+  background: #C9FFBF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.header{
+
+text-align: center;
+
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* adjust width as needed */
+}
+
+.email input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.email input[type="text"],
+.email input[type="email"] {
+  width: 100%;
+}
+
+.email input[type="text"]:focus,
+.email input[type="email"]:focus {
+  outline: none;
+  border-color: #007bff; /* change color as desired */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* change color as desired */
+}
+
+/* Optional: Add more styles like font-family, font-size, etc. */
+
+
+.adduser {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+.delete button {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete button:hover {
+  background-color: #d32f2f; /* Darker Red */
+}
+
+.userbox {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  border-color: black;
+  padding: 16px;
+  margin-bottom: 16px;
+  width:25%;
+}
+
+.userbox p {
+  margin: 8px 0;
+}
